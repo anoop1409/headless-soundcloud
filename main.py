@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import settings
 
 options = Options()
-if settings.DEBUG:
+if not settings.DEBUG:
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--headless')
