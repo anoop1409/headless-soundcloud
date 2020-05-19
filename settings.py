@@ -1,8 +1,5 @@
-import os
+import chromedriver_autoinstaller
 
-CHROMEDRIVER = 'chromedriver'
-BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-CHROMEDRIVER_PATH = '{}/bin/{}'.format(BASE_PATH, CHROMEDRIVER)
-
+chromedriver_autoinstaller.install()
 DEBUG = False
 SOUNDCLOUD_LANDING_URL = "https://soundcloud.com/discover"

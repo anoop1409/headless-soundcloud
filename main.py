@@ -11,7 +11,7 @@ if not settings.DEBUG:
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
 
-driver = webdriver.Chrome(settings.CHROMEDRIVER_PATH, chrome_options=options)
+driver = webdriver.Chrome(chrome_options=options)
 print("Opening soundcloud")
 driver.get(settings.SOUNDCLOUD_LANDING_URL)
 print("Waiting for page load")
