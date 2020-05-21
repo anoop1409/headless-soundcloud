@@ -1,4 +1,4 @@
-# Soundcloud (Headless)
+# Headless Soundcloud
 Automatically play songs from soundcloud.com using Python and selenium without using API.
 ## Instructions for Windows (For beginners)
 - **Install Git:** Visit https://gitforwindows.org/. Download and install the latest version of git.
