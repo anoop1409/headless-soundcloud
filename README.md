@@ -17,7 +17,7 @@ Automatically play songs from soundcloud.com using Python and selenium without u
 On a regular linux machine, you should be already having Python3.6 or above installed.  
 For installing it on a Raspberry Pi, you can execute the steps mentioned in this very nice medium article: https://medium.com/@isma3il/install-python-3-6-or-3-7-and-pip-on-raspberry-pi-85e657aadb1e
 
-### Clone the project
+#### Clone the project
 Execute the git command - `https://github.com/anoop1409/headless-soundcloud.git` to clone the project
 
 #### Setup Virtual env
