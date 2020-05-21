@@ -47,8 +47,11 @@ Create the virtual environment first (See the steps above). Then execute the fol
 - `cd ..`
 - `python main.py` - This should start your headless chrome and should log the execution steps to the console and finally play the songs.
 
+### To increase / decrease volume on your Linux machine / Raspberry Pi
+Use the command `alsamixer` and use the up / down keys to change the volume
 
 #### Turn off the songs / Kill the headless browser
 `pkill chromium`
 #### Deactivate the virtual env
 Use the command - `deactivate`
+
