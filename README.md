@@ -3,7 +3,7 @@ Automatically play songs from soundcloud.com using Python and selenium without u
 ## Instructions for Windows (For beginners)
 - **Install Git:** Visit https://gitforwindows.org/. Download and install the latest version of git.
 - **Install Python and pip:**  Visit - https://www.python.org/downloads/ or watch my video here on how to install Python on your machine - https://youtu.be/0TKybIFnNaA
-- **Clone the project** Clone this project from github to your local machine by executing the git command `git clone https://github.com/anoop1409/soundcloud.git`. This will clone the project to your current directory.
+- **Clone the project** Clone this project from github to your local machine by executing the git command `git clone https://github.com/anoop1409/headless-soundcloud.git`. This will clone the project to your current directory.
 - **Download chromedriver:** Visit this link and download the latest chromedriver for your os. Link: https://chromedriver.chromium.org/downloads
 - **Copy chromedriver to correct location:** Extract the zip file and copy the chromedriver file to your project folder's `/bin` directory
 - **Update Google Chrome:** Make sure your google chrome is up to date and is compatible with the downloaded chromedriver.
@@ -16,6 +16,9 @@ Automatically play songs from soundcloud.com using Python and selenium without u
 #### Setup Python 3.6 on Raspberry Pi
 On a regular linux machine, you should be already having Python3.6 or above installed.  
 For installing it on a Raspberry Pi, you can execute the steps mentioned in this very nice medium article: https://medium.com/@isma3il/install-python-3-6-or-3-7-and-pip-on-raspberry-pi-85e657aadb1e
+
+### Clone the project
+Execute the git command - `https://github.com/anoop1409/headless-soundcloud.git` to clone the project
 
 #### Setup Virtual env
 1. `sudo nano ~/.profile`  
@@ -32,12 +35,13 @@ For installing it on a Raspberry Pi, you can execute the steps mentioned in this
 9. `sudo pip install virtualenv`
 10. `virtualenv env` - This creates the virtual environment with Python and pip.
 
-
 #### Install chromedriver
 - `sudo apt-get install chromium-chromedriver`
 - Then use the command - `dpkg -L chromium-chromedriver` to search for the path of the installed chromedriver. Once you find the path of `chromedriver`, execute the following command to move the file to the bin directory of your project.
 - `mv <path of chromedriver> <path of bin folder of your project>`  
 For me, the paths are as: `mv /usr/bin/chromedriver /home/pi/soundcloud/bin`
+
+
 
 #### Play the top 50 trending songs on soundcloud
 Activate the virtual environment  
